@@ -1,0 +1,54 @@
+{
+  "Snapshots": [
+    {
+      "SnapshotId": "snap-0abandoned2019",
+      "VolumeId": "vol-0deletedlongago",
+      "VolumeSize": 500,
+      "StartTime": "2019-04-02T11:14:03.000Z",
+      "State": "completed",
+      "Encrypted": false,
+      "OwnerId": "111122223333",
+      "Description": "pre-migration copy of the old monolith disk"
+    },
+    {
+      "SnapshotId": "snap-0amibacked",
+      "VolumeId": "vol-0alsogone",
+      "VolumeSize": 100,
+      "StartTime": "2021-08-19T03:00:11.000Z",
+      "State": "completed",
+      "Encrypted": true,
+      "OwnerId": "111122223333",
+      "Description": "Created by CreateImage(i-05f2) for ami-0golden"
+    },
+    {
+      "SnapshotId": "snap-0livevolume",
+      "VolumeId": "vol-0productiondb",
+      "VolumeSize": 200,
+      "StartTime": "2026-11-20T02:00:00.000Z",
+      "State": "completed",
+      "Encrypted": true,
+      "OwnerId": "111122223333",
+      "Description": "nightly backup of the production database volume"
+    },
+    {
+      "SnapshotId": "snap-0publicoops",
+      "VolumeId": "vol-0staginghost",
+      "VolumeSize": 8,
+      "StartTime": "2025-02-01T09:30:00.000Z",
+      "State": "completed",
+      "Encrypted": false,
+      "OwnerId": "111122223333",
+      "Description": "shared with a contractor, never unshared"
+    },
+    {
+      "SnapshotId": "snap-0tinyold",
+      "VolumeId": "vol-0ancientroot",
+      "VolumeSize": 1,
+      "StartTime": "2020-01-05T22:45:00.000Z",
+      "State": "completed",
+      "Encrypted": true,
+      "OwnerId": "111122223333",
+      "Description": "1 GiB test volume from a 2020 experiment"
+    }
+  ]
+}

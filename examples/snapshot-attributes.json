@@ -1,0 +1,8 @@
+{
+  "SnapshotId": "snap-0publicoops",
+  "CreateVolumePermissions": [
+    {
+      "Group": "all"
+    }
+  ]
+}

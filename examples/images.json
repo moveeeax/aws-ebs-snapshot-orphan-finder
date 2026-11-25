@@ -1,0 +1,20 @@
+{
+  "Images": [
+    {
+      "ImageId": "ami-0golden",
+      "Name": "golden-base-2021-08-19",
+      "State": "available",
+      "OwnerId": "111122223333",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/xvda",
+          "Ebs": {
+            "SnapshotId": "snap-0amibacked",
+            "VolumeSize": 100,
+            "VolumeType": "gp2"
+          }
+        }
+      ]
+    }
+  ]
+}

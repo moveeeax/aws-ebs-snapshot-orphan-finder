@@ -1,0 +1,20 @@
+{
+  "Volumes": [
+    {
+      "VolumeId": "vol-0productiondb",
+      "Size": 200,
+      "State": "in-use",
+      "VolumeType": "gp3",
+      "AvailabilityZone": "eu-central-1a",
+      "Encrypted": true
+    },
+    {
+      "VolumeId": "vol-0staginghost",
+      "Size": 8,
+      "State": "in-use",
+      "VolumeType": "gp2",
+      "AvailabilityZone": "eu-central-1b",
+      "Encrypted": false
+    }
+  ]
+}
